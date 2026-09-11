@@ -67,7 +67,7 @@ ScaffoldMessenger.of(context).showSnackBar(
 );
 ```
 
-**svg**
+
 
 ### With this package
 
@@ -81,8 +81,6 @@ CustomSnackBar.show(
   backgroundColor: Colors.green,
 );
 ```
-
-**svg**
 
 The package provides a reusable and customizable SnackBar without manually configuring the complete UI each time.
 
@@ -98,7 +96,7 @@ dependencies:
     path: ../
 ```
 
-**svg**
+
 
 For a published package, use the package version instead:
 
@@ -107,7 +105,6 @@ dependencies:
   flutter_custom_toast_snackbar: ^1.0.0
 ```
 
-**svg**
 
 Then run:
 
@@ -115,7 +112,6 @@ Then run:
 flutter pub get
 ```
 
-**svg**
 
 ## Import
 
@@ -125,7 +121,7 @@ flutter pub get
 import 'package:flutter_custom_toast_snackbar/flutter_custom_toast_snackbar.dart';
 ```
 
-**svg**
+
 
 ## Custom Toast
 
@@ -140,7 +136,7 @@ CustomToast.show(
 );
 ```
 
-**svg**
+
 
 ### Toast with Icon
 
@@ -155,7 +151,7 @@ CustomToast.show(
 );
 ```
 
-**svg**
+
 
 ### Toast Shapes
 
@@ -169,7 +165,7 @@ ToastShape.pill
 ToastShape.square
 ```
 
-**svg**
+
 
 #### Rounded Toast
 
@@ -183,7 +179,6 @@ CustomToast.show(
 );
 ```
 
-**svg**
 
 #### Pill Toast
 
@@ -197,7 +192,6 @@ CustomToast.show(
 );
 ```
 
-**svg**
 
 #### Square Toast
 
@@ -211,7 +205,6 @@ CustomToast.show(
 );
 ```
 
-**svg**
 
 ## Toast Customization
 
@@ -239,7 +232,6 @@ CustomToast.show(
 );
 ```
 
-**svg**
 
 ## Custom SnackBar
 
@@ -254,8 +246,6 @@ CustomSnackBar.show(
 );
 ```
 
-**svg**
-
 ### SnackBar with Icon
 
 [svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#snackbar-with-icon)
@@ -269,7 +259,6 @@ CustomSnackBar.show(
 );
 ```
 
-**svg**
 
 ### SnackBar Shapes
 
@@ -283,7 +272,6 @@ SnackBarShape.pill
 SnackBarShape.square
 ```
 
-**svg**
 
 #### Rounded SnackBar
 
@@ -297,7 +285,6 @@ CustomSnackBar.show(
 );
 ```
 
-**svg**
 
 #### Pill SnackBar
 
@@ -311,7 +298,6 @@ CustomSnackBar.show(
 );
 ```
 
-**svg**
 
 #### Square SnackBar
 
@@ -325,11 +311,9 @@ CustomSnackBar.show(
 );
 ```
 
-**svg**
 
 ## SnackBar Customization
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#snackbar-customization)
 
 Customize the SnackBar appearance:
 
@@ -354,11 +338,9 @@ CustomSnackBar.show(
 );
 ```
 
-**svg**
 
 ## Toast Parameters
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#toast-parameters)
 
 The `CustomToast.show()` method supports:
 
@@ -376,11 +358,9 @@ duration
 padding
 ```
 
-**svg**
 
 ## SnackBar Parameters
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#snackbar-parameters)
 
 The `CustomSnackBar.show()` method supports:
 
@@ -403,7 +383,6 @@ margin
 
 ## Complete Example
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#complete-example)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -460,11 +439,9 @@ class ExamplePage extends StatelessWidget {
 }
 ```
 
-**svg**
 
 ## Architecture
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#architecture)
 
 The package follows a simple structure separating the public package entry point from the Toast and SnackBar implementations.
 
@@ -492,11 +469,9 @@ flutter_custom_toast_snackbar/
 └── pubspec.yaml
 ```
 
-**svg**
 
 ### Architecture Flow
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#architecture-flow)
 
 ```text
 Application
@@ -512,11 +487,9 @@ Flutter Custom Toast & SnackBar
         SnackBarShape
 ```
 
-**svg**
 
 ## Example
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#example)
 
 The package contains an example application demonstrating:
 
@@ -541,11 +514,9 @@ flutter pub get
 flutter run
 ```
 
-**svg**
 
 ## Development
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#development)
 
 Install dependencies:
 
@@ -579,11 +550,10 @@ flutter pub get
 flutter run
 ```
 
-**svg**
+
 
 ## License
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#license)
 
 Copyright (c) 2026 Excelsior Technologies
 
