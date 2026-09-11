@@ -1,6 +1,5 @@
 # Flutter Custom Toast & SnackBar
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#flutter-custom-toast--snackbar)
 
 A reusable Flutter package that provides **custom Toast messages and SnackBars** with support for icons, text, background colors, shapes, sizes, padding, margins, and display duration.
 
@@ -8,7 +7,6 @@ It helps developers create consistent notification messages without repeatedly b
 
 ## Preview
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#preview)
 
 <p align="center">
   <img src="example/assets/demo.gif" alt="Flutter Custom Toast & SnackBar Demo" width="250">
@@ -16,7 +14,6 @@ It helps developers create consistent notification messages without repeatedly b
 
 ## Features
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#features)
 
 * Custom Toast messages
 * Custom SnackBars
@@ -40,7 +37,6 @@ It helps developers create consistent notification messages without repeatedly b
 
 ## Why This Package?
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#why-this-package)
 
 Developers frequently need notification messages for:
 
@@ -57,7 +53,6 @@ Instead of creating the same Toast and SnackBar UI repeatedly, this package prov
 
 ### Without the package
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#without-the-package)
 
 ```dart
 ScaffoldMessenger.of(context).showSnackBar(
@@ -71,7 +66,6 @@ ScaffoldMessenger.of(context).showSnackBar(
 
 ### With this package
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#with-this-package)
 
 ```dart
 CustomSnackBar.show(
@@ -86,7 +80,6 @@ The package provides a reusable and customizable SnackBar without manually confi
 
 ## Installation
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#installation)
 
 Add the package to your `pubspec.yaml`:
 
@@ -115,7 +108,6 @@ flutter pub get
 
 ## Import
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#import)
 
 ```dart
 import 'package:flutter_custom_toast_snackbar/flutter_custom_toast_snackbar.dart';
@@ -125,7 +117,6 @@ import 'package:flutter_custom_toast_snackbar/flutter_custom_toast_snackbar.dart
 
 ## Custom Toast
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#custom-toast)
 
 Display a simple Toast message:
 
@@ -140,7 +131,6 @@ CustomToast.show(
 
 ### Toast with Icon
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#toast-with-icon)
 
 ```dart
 CustomToast.show(
@@ -155,7 +145,6 @@ CustomToast.show(
 
 ### Toast Shapes
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#toast-shapes)
 
 The package supports three Toast shapes:
 
@@ -208,7 +197,6 @@ CustomToast.show(
 
 ## Toast Customization
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#toast-customization)
 
 Customize the Toast appearance:
 
@@ -235,7 +223,6 @@ CustomToast.show(
 
 ## Custom SnackBar
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#custom-snackbar)
 
 Display a simple SnackBar:
 
@@ -248,7 +235,6 @@ CustomSnackBar.show(
 
 ### SnackBar with Icon
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#snackbar-with-icon)
 
 ```dart
 CustomSnackBar.show(
@@ -262,7 +248,6 @@ CustomSnackBar.show(
 
 ### SnackBar Shapes
 
-[svg](https://github.com/Excelsior-Technologies-Community/flutter_custom_toast_snackbar#snackbar-shapes)
 
 The package supports three SnackBar shapes:
 
